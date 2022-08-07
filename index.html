@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="css/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <header class="header--dark">
+      <h3 class="header__title">Admin Page</h3>
+      <div class="menu_icon">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <div class="header__search">
+        <form class="header__search--form">
+          <input
+            class="search__input"
+            type="text"
+            placeholder="Search for..."
+          />
+          <button class="search__btn" type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </form>
+      </div>
+      <div class="login">
+        <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+      </div>
+    </header>
+    <main main="main">
+      <aside class="aside">
+        <nav class="main__nav">
+          <ul class="nav__ul">
+            <li class="title">CORE</li>
+            <li class="link">
+              <i class="fa fa-tachometer" aria-hidden="true"></i>
+              Dashboard
+            </li>
+            <li class="title">INTERFACE</li>
+            <li class="link">
+              <i class="fa fa-windows" aria-hidden="true"></i>
+              Layouts
+              <div class="navarrow">></div>
+            </li>
+            <li class="link">
+              <i class="fa fa-bookmark" aria-hidden="true"></i>
+              Pages
+              <div class="navarrow">></div>
+            </li>
+            <li class="title">
+            ADDONS
+            </li>
+            <li class="link">
+              <i class="fa fa-area-chart" aria-hidden="true"></i>
+              Charts
+            </li>
+            <li class="link">
+              <i class="fa fa-table" aria-hidden="true"></i>
+              Tables
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <section class="content">
+        <h1 class="dashboard__title">Dashboard</h1>
+        <div class="main__breadcrumb">
+          <h3>Dashboard</h3>
+        </div>
+        <div class="main__cards">
+          <div class="main__card blue">
+            <div class="card__top main__card--blue">Primary Card</div>
+            <div class="card__bottom main__card--blue">
+              View Details
+              <div class="arrow">></div>
+            </div>
+          </div>
+          <div class="main__card yellow">
+            <div class="card__top main__card--yellow">Warning Card</div>
+            <div class="card__bottom main__card--yellow">
+              View Details
+              <div class="arrow">></div>
+            </div>
+          </div>
+          <div class="main__card green">
+            <div class="card__top main__card--green">Success Card</div>
+            <div class="card__bottom main__card--green">
+              View Details
+              <div class="arrow">></div>
+            </div>
+          </div>
+          <div class="main__card red">
+            <div class="card__top main__card--red">Danger Card</div>
+            <div class="card__bottom main__card--red">
+              View Details
+              <div class="arrow">></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
